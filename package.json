@@ -1,0 +1,34 @@
+{
+  "name": "talie-boyle",
+  "version": "1.0.0",
+  "description": "Photography website for Talie Boyle",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SethDS/talie-boyle.git"
+  },
+  "author": "SethDS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SethDS/talie-boyle/issues"
+  },
+  "homepage": "https://github.com/SethDS/talie-boyle#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "express-session": "^1.15.0",
+    "github": "^8.2.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-cachebust": "0.0.6",
+    "gulp-concat": "^2.6.1",
+    "gulp-print": "^2.0.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.4.0",
+    "scss": "^0.2.4"
+  }
+}
