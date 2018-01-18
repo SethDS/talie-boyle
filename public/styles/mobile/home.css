@@ -1,0 +1,39 @@
+.home-mobile-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  position: relative;
+  height: 100%;
+}
+
+.row-one {
+  height: calc(100vh / 10);
+}
+
+.row-two {
+  height: calc(100vh / 3);
+}
+
+.column-two-one {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Abel', sans-serif;
+  font-size: 70px;
+  line-height: 0;
+}
