@@ -88,11 +88,23 @@
 .column-three-two {
   width: 40%;
   background-color: rgba(255,255,255,0.7);
+  color: black;
+  font-family: 'Abel', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 65px;
 }
 
 .column-four-one {
   width: 40%;
   background-color: rgba(255,255,255,0.7);
+  color: black;
+  font-family: 'Abel', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 65px;
 }
 
 .column-four-two {
@@ -108,4 +120,10 @@
 .column-five-two {
   width: 40%;
   background-color: rgba(255,255,255,0.7);
+  color: black;
+  font-family: 'Abel', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 65px;
 }
