@@ -15,17 +15,38 @@
   flex-direction: row;
 }
 
-.column {
-  position: relative;
-  height: 100%;
-}
-
 .row-one {
   height: calc(100vh / 10);
 }
 
 .row-two {
-  height: calc(100vh / 3);
+  height: calc((100vh / 10) * 3);
+}
+
+.row-three {
+  height: calc((100vh / 10) * 2);
+}
+
+.row-four {
+  height: calc((100vh / 10) * 2);
+}
+
+.row-five {
+  height: calc((100vh / 10) * 2);
+}
+
+.column {
+  position: relative;
+}
+
+.column-one-one {
+  width: 70%;
+  background-color: aquamarine;
+}
+
+.column-one-two {
+  width:  30%;
+  background-color: grey;
 }
 
 .column-two-one {
@@ -36,4 +57,39 @@
   font-family: 'Abel', sans-serif;
   font-size: 70px;
   line-height: 0;
+}
+
+.column-two-two {
+  width:  60%;
+  background-color: darkslategray;
+}
+
+.column-three-one {
+  width: 60%;
+  background-color: coral;
+}
+
+.column-three-two {
+  width: 40%;
+  background-color: white;
+}
+
+.column-four-one {
+  width: 40%;
+  background-color: white;
+}
+
+.column-four-two {
+  width: 60%;
+  background-color: cornflowerblue;
+}
+
+.column-five-one {
+  width: 60%;
+  background-color: lightsteelblue;
+}
+
+.column-five-two {
+  width: 40%;
+  background-color: white;
 }
