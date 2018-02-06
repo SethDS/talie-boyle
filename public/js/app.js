@@ -10,6 +10,11 @@ angular.module('myApp', ['ui.router']).config(function($stateProvider, $urlRoute
             url: '/home',
             templateUrl: '../views/home.html',
             controller: 'homeCtrl'
+        })
+        .state('portrait', {
+            url: "/portrait",
+            templateUrl: "../views/portrait.html",
+            controller: "portraitController"
         });
 
 });
