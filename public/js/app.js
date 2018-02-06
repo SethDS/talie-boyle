@@ -14,7 +14,7 @@ angular.module('myApp', ['ui.router']).config(function($stateProvider, $urlRoute
         .state('portrait', {
             url: "/portrait",
             templateUrl: "../views/portrait.html",
-            controller: "portraitController"
+            controller: "portraitCtrl"
         });
 
 });
