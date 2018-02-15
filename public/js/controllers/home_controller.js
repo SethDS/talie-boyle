@@ -3,6 +3,8 @@
  */
 angular.module('myApp').controller('homeCtrl', function($scope, mainService){
 
-    $scope.message = "This is home.";
+  var navSection = document.getElementById('nav-section');
+
+    navSection.style.backgroundImage = "url('../../pics/portrait.jpg')";
 
 });
